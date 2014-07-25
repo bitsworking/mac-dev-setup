@@ -125,6 +125,10 @@ To see what you have installed (with their version numbers):
 
     $ brew list --versions
 
+## Linux commands (sed, grep, etc)
+
+http://superuser.com/questions/476575/replace-os-xs-shell-commands-with-the-linux-versions
+
 ## Consolas
 
 I really like the Consolas font for coding. Being a Microsoft (!) font, it is not installed by default. Since we're going to be looking at a lot of terminal output and code, let's install it now.
@@ -175,6 +179,8 @@ At this point you can also change your computer's name, which shows up in this t
 Now we have a terminal we can work with!
 
 (Thanks to Mathias Bynens for his awesome [dotfiles](https://github.com/mathiasbynens/dotfiles).)
+
+**Protip**: Add this to `.exports`: `export EDITOR='nano -w'` (or 'subl -w')
 
 ## Git
 
